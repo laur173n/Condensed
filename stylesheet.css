@@ -149,6 +149,17 @@ p {
     background-color: #EA5045;
     font-weight: bold;
     position: relative;
+
+}
+
+.kolonne2,
+.kolonne3,
+.kolonne4,
+.kolonne5,
+.kolonne6,
+.kolonne7,
+.kolonne8 {
+    position: relative;
 }
 
 .pil {
