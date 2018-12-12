@@ -172,3 +172,10 @@ p {
 
 
 /*AFLEVERING BESKRIVELSE*/
+
+.chain_ikon {
+    position: fixed;
+    background-image: url(billeder/chain_ikon.png);
+    left: 75vw;
+
+}
