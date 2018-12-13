@@ -119,19 +119,19 @@ footer {
 
 /*AFLEVERING OVERSIGT*/
 
-.kolonne {
+#afleveringer .kolonne {
     border: 1px solid white;
     margin: 2vw;
     background-color: #fffefe;
 }
 
-.tema {
+#afleveringer .tema {
     font-family: arial;
     font-size: 1.1rem;
     margin: 0;
 }
 
-.arrow_down {
+#afleveringer .arrow_down {
     background-image: url(billeder/arrow.svg);
     background-repeat: no-repeat;
     height: 6vw;
@@ -139,30 +139,30 @@ footer {
     transform: rotate(90deg);
 }
 
-p {
+#afleveringer p {
     font-family: arial;
     font-size: 1.1rem;
     padding: 0 0 0 0.5rem;
 }
 
-.kolonne1 {
+#afleveringer .kolonne1 {
     background-color: #EA5045;
     font-weight: bold;
     position: relative;
 
 }
 
-.kolonne2,
-.kolonne3,
-.kolonne4,
-.kolonne5,
-.kolonne6,
-.kolonne7,
-.kolonne8 {
+#afleveringer .kolonne2,
+#afleveringer .kolonne3,
+#afleveringer .kolonne4,
+#afleveringer .kolonne5,
+#afleveringer .kolonne6,
+#afleveringer .kolonne7,
+#afleveringer .kolonne8 {
     position: relative;
 }
 
-.pil {
+#afleveringer .pil {
     position: absolute;
     top: 9vw;
     ;
@@ -174,7 +174,7 @@ p {
 /*AFLEVERING BESKRIVELSE*/
 
 /*jeg var nødt til at kalde til img elementet, ellers kunne jeg ikke gøre den mindre. Hvorfor? ved jeg ikke :-)*/
-.chain_ikon img {
+#afleveringer_beskrivelse .chain_ikon img {
     position: absolute;
     width: 8vw;
     height: 8vw;
@@ -183,20 +183,63 @@ p {
 
 }
 
-.pil_beskrivelse {
+#afleveringer_beskrivelse .pil_beskrivelse {
     position: absolute;
     top: 5vw;
     right: 3vw;
 }
 
-.kolonne5_2 {
+#afleveringer_beskrivelse .kolonne5_2 {
     height: 50vw;
 }
 
-.statistik_ikon {
+#afleveringer_beskrivelse .statistik_ikon {
     position: absolute;
     width: 8vw;
     height: 8vw;
     left: 78vw;
     top: 5vw;
+}
+
+#afleveringer_beskrivelse .kolonne {
+    border: 1px solid white;
+    margin: 2vw;
+    background-color: #fffefe;
+}
+
+#afleveringer_beskrivelse .tema {
+    font-family: arial;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+#afleveringer_beskrivelse .arrow_down {
+    background-image: url(billeder/arrow.svg);
+    background-repeat: no-repeat;
+    height: 6vw;
+    width: 4vw;
+    transform: rotate(90deg);
+}
+
+#afleveringer_beskrivelse p {
+    font-family: arial;
+    font-size: 1.1rem;
+    padding: 0 0 0 0.5rem;
+}
+
+#afleveringer_beskrivelse .kolonne1 {
+    background-color: #EA5045;
+    font-weight: bold;
+    position: relative;
+
+}
+
+#afleveringer_beskrivelse .kolonne2,
+#afleveringer_beskrivelse .kolonne3,
+#afleveringer_beskrivelse .kolonne4,
+#afleveringer_beskrivelse .kolonne5,
+#afleveringer_beskrivelse .kolonne6,
+#afleveringer_beskrivelse .kolonne7,
+#afleveringer_beskrivelse .kolonne8 {
+    position: relative;
 }
