@@ -173,9 +173,30 @@ p {
 
 /*AFLEVERING BESKRIVELSE*/
 
-.chain_ikon {
-    position: fixed;
-    background-image: url(billeder/chain_ikon.png);
-    left: 75vw;
+/*jeg var nødt til at kalde til img elementet, ellers kunne jeg ikke gøre den mindre. Hvorfor? ved jeg ikke :-)*/
+.chain_ikon img {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    left: 78vw;
+    top: 6vw;
 
+}
+
+.pil_beskrivelse {
+    position: absolute;
+    top: 5vw;
+    right: 3vw;
+}
+
+.kolonne5_2 {
+    height: 50vw;
+}
+
+.statistik_ikon {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    left: 78vw;
+    top: 5vw;
 }
